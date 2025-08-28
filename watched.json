@@ -1,0 +1,12 @@
+{
+  "movies": [
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "year": "2025",
+      "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+      "rating": 7.1,
+      "source": "tmdb",
+      "added_at": "2025-08-26T21:02:21"
+    }
+  ]
+}
