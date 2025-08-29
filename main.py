@@ -40,12 +40,21 @@ def main():
 
         choice = input("Enter choice: ")
 
-        if choice == "1":
+                if choice == "1":
             movie_name = input("Enter movie name: ")
             result = search_movie(movie_name)
             if result:
                 title = result.get("title") or result.get("name")
-                print(f"Found: {title}")
+                release_date = result.get("release_date", "N/A")
+                rating = result.get("vote_average", "N/A")
+                overview = result.get("overview", "No description available.")
+
+                print("\nMovie Found!")
+                print(f"Title: {title}")
+                print(f"Release Date: {release_date}")
+                print(f"Rating: {rating}/10")
+                print(f"Overview: {overview}")
+
                 watched_movies.append(title)
             else:
                 print("Movie not found.")
